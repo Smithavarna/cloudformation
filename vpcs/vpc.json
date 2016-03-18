@@ -34,7 +34,7 @@
     "SubnetTemplate": {
       "Type": "String",
       "Description": "CF Template URL for creating Public/Private Subnets and NAT ASGs",
-      "Default": "https://raw.githubusercontent.com/Nextdoor/cloudformation/master/vpcs/vpc_subnet.json"
+      "Default": "https://s3.amazonaws.com/cloudformation.nextdoor-test.com/vpc_subnet.json"
     }
 
   },
